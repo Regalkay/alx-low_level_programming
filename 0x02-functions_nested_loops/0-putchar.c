@@ -1,6 +1,13 @@
-#include <main.h>
+#include "main.h"
 
-int main(void) {
+int main(void)
+
+{
+
+/**
+* main - Print _putchar
+* Return: Always 0
+*/
 
 putchar('p');
 putchar('u');
@@ -9,6 +16,6 @@ putchar('c');
 putchar('h');
 putchar('a');
 putchar('r');
-putchar('\n');  // print a newline
+putchar('\n');
 return 0;
 }
